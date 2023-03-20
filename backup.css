@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: gainsboro;
+    width: 200px;
+    height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sidebar nav {
+    padding: 8px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 24px;
+    padding: 16px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: royalblue; */
+    height: 40vh;
+    width: 80vw;
+    margin: 148px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.myInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.Hello {
+    font-size: 48px;
+}
+
+.Name {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.About {
+    font: size 25px;
+    ;
+}
+
+.moreabout {
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.buttons {
+    margin-top: 24px;
+}
+
+.buttons button {
+    padding: 5px 12px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: aliceblue;
+    margin: 0 4px;
+    background-color: rgb(221, 163, 38);
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: rgb(221, 163, 38);
+    background-color: aliceblue;
+}
+
+.portrait img {
+    width: 395px;
+    height: 54vh;
+
+}
+
+.contactform {
+    font-family: 'Signika Negative', sans-serif;
+    padding: 50px 40px ;
+    
+    
+}
+
+.contactform h1 {
+    font-family: 'Tajawal', sans-serif;
+    padding: 12px 0;
+}
+
+#senderName{
+    width: 16vw;
+}
+
+.contactform form div input {
+
+    border-radius: 4px;
+    width: 26vw;
+    margin:0 0 10px 2px;
+    padding:1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form{
+    margin-top: 20px;
+}
+
+.contactform form div {
+    width: 24vw;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column; 
+
+    
+}
+
+#emailHelp {
+    font-size: 9px;
+    margin:  0 4px;
+    color: coral;
+
+}
+
+#isClient{
+    flex-direction: row; 
+}
+
+#isClient{
+    width: 16px;;
+    margin: 3px 0;
+}
+
+.check-help{
+    margin: -21px 20px;
+}
+
+.submit-btn{
+    margin: 24px 0;
+}
+
+

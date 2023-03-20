@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" style="
+    background-color: #211f1f;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saransh Mishra- Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarclose">
+
+            <nav>
+                <li><a href="/">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact me</a></li>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="ham-menu">
+                <img class="menu" width=27 src="/images/menu.png" alt="">
+                <img class="cross" width=23 src="/images/cross.png" alt="">
+            </div>
+            <div class="contactform">
+                <h1>You can contact me by filling the form below </h1>
+                <form>
+                    <div class="senderNameclass">
+                        <label for="senderName" class="senderName">Name</label>
+                        <input type="text" class="name-control" id="senderName">
+                    </div>
+                    <div class="senderEmailclass">
+                        <label for="senderEmail" class="senderEmail">Email address</label>
+                        <input type="email" class="email-control" id="senderEmail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="emailHelp">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="senderEnquiryclass">
+                        <label for="senderEnquiry" class="senderEnquiry">Enquiry</label>
+                        <input type="text" class="enquiry-control" id="senderEnquiry">
+                    </div>
+                    <div class="checkboxclass">
+                        <input type="checkbox" class="check-input" id="isClient">
+                        <label class="check-help" for="check-help">I want you to work on a project with me</label>
+                    </div>
+                    <button type="submit" class="btn btn-sm">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
