@@ -1,57 +1,51 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Saransh Mishra- Personal website</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+<html lang="en" style="
+    background-color: #211f1f;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <header>
-      <h1>Saransh Mishra</h1>
-      <p>Welcome to my website!</p>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="/contact.html">Contact Me</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h2>About Me</h2>
-        <p>I am a <em>profession</em> based in <em>location</em>. I have <em>years of experience</em> in the field, and am passionate about <em>what you are passionate about</em>.</p>
-        <p>In my free time, I enjoy <em>your hobbies and interests</em>.</p>
-      </section>
-      <section>
-        <h2>My Achievements</h2>
-        <ul>
-          <li>Award 1</li>
-          <li>Award 2</li>
-          <li>Certification 1</li>
-        </ul>
-      </section>
-      <section>
-        <h2>My Work</h2>
-        <ul>
-          <li><a href="#">Project 1</a></li>
-          <li><a href="#">Project 2</a></li>
-          <li><a href="#">Project 3</a></li>
-        </ul>
-      </section>
-      <section>
-        <h2>Read My Blog</h2>
-        <ul>
-          <li><a href="#">Blog Post 1</a></li>
-          <li><a href="#">Blog Post 2</a></li>
-          <li><a href="#">Blog Post 3</a></li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2021 My Personal Website</p>
-    </footer>
-  </body>
+    <title>Saransh Mishra- Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarclose">
+
+            <nav>
+                <li><a href="/">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact me</a></li>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="ham-menu">
+                <img class="menu" width=27 src="/images/menu.png" alt="">
+                <img class="cross" width=23 src="/images/cross.png" alt="">
+            </div>
+            <div class="infoContainer">
+                <div class="myInfo">
+                    <div class="parentiam">
+                        <div class="Hello">Hi,</div>
+                        <div class="Am">I am</div>
+                    </div>
+                    <div class="Name">Saransh Mishra</div>
+                    <div class="About">A Student (currently studying in school) and a tech enthusiast from India</div>
+                    <div class="moreabout">I am currently studying in 10th grade, I am currently
+                        learning about web development, I love to code and learn new things about IT. </div>
+                    <div class="buttons">
+                        <a href="https://github.com/SarmisH" target="_blank"><button class=btn>Github</button></a>
+                        <a href="/contact.html"><button class=btn>Contact me</button></a>
+                    </div>
+                </div>
+                <div class="portrait"><img src="/images/human.png" alt="Saransh Mishra"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
 </html>
