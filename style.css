@@ -1,0 +1,19 @@
+.bg-color {
+background-color: #161625;
+}
+
+.single-line {
+white-space: nowrap;
+overflow: hidden;
+}
+
+.hero {
+background-color: #161625;
+background-image: url('/assets/bg.png');
+background-repeat: no-repeat;
+}
+.joke_text{
+font-size: 50px;
+background: #130331;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
