@@ -17,3 +17,7 @@ font-size: 50px;
 background: #130331;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.todo_img{
+    height: auto;
+}
